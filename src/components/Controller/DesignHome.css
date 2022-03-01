@@ -25,9 +25,9 @@
 
   .getintouch{
       width: 95%;
-      height: 50vh;
+      height: 40vh;
     
-     margin-left: 3%;
+     margin-left: 2.5%;
      display: block;
      
       background-color: whitesmoke;
@@ -52,6 +52,13 @@
     
  
   }
+  .getintouch a{
+      color:black !important;
+      
+      margin-left: 2%;
+
+  }
+ 
   .aboutimage{
     
       
@@ -104,10 +111,7 @@
       
       }
     
-      .removeme{
-        display: none;
-    
-      }
+     
     
       
   }

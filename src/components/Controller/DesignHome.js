@@ -1,7 +1,7 @@
 import React from 'react';
 import aboutimage from './images/aboutimage.png';
 import { Link } from 'react-router-dom';
-import About from '../Pages/About';
+import About from '../Pages/Portfolio';
 import Footer from '../Footer';
 
 import './DesignHome.css';
@@ -20,7 +20,7 @@ export default function DesignHome() {
 
             </p>
             <br></br>
-            <Link className='designLink' to = './About' >Learn More</Link>
+            <Link className='designLink' to = './Portfolio' >Learn More</Link>
             
                 </div>         <br></br>        <br></br>        <br></br>  
                 <div>
@@ -31,6 +31,10 @@ export default function DesignHome() {
                     <br></br>
                     <p>manoomogha@yahoo.com</p>
                     <p>+905488456553</p>
+                    <a href="">
+                        <i className="fab fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/oghenemano-o-179aba206" ><i className="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/omoghaoghenemano" ><i className="fab fa-github"></i></a>
                 </div>
                 <Footer/>
             

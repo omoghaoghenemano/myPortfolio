@@ -11,6 +11,7 @@ function Navbar() {
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
+  
 
 
   
@@ -36,7 +37,7 @@ function Navbar() {
               <Link className='nav-item' to='/'onClick={closeMobileMenu}>Home</Link>
               </li> 
                <li>
-          <Link to='/About' className='nav-item' onClick={closeMobileMenu}>About</Link>
+          <Link to='/Portfolio' className='nav-item' onClick={closeMobileMenu}>Portfolio</Link>
                    </li>  <li> <Link  to='/Contact' className='nav-item' onClick={closeMobileMenu}>Contact</Link> </li>  
 
           </ul>
