@@ -1,0 +1,15 @@
+.makefooter{
+    background-color: black;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    text-align: center;
+    
+    padding:20px;
+    width: 100%;
+
+    left: 0;
+    bottom: 0;
+    color: white;
+    
+    vertical-align: bottom;
+}

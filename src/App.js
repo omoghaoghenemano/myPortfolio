@@ -7,6 +7,8 @@ import About from './components/Pages/About'
 import Home from './components/Pages/Home'
 import Contact from './components/Pages/Contact';
 
+
+
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
 
  <Router>
       <Navbar/>
+    
    
       <Switch>
       <Route path='/' exact component={Home}/>

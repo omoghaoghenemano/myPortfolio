@@ -1,0 +1,113 @@
+.grid-item2 img{
+    width: 100%;
+    height: 100%;
+  display: flex;
+  position: relative;
+  
+  
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns:45.5% 50%;
+    margin-left: 2%;
+  border: none;
+  
+  
+  }
+  .designLink{
+    
+  color: white !important;
+  text-decoration: none;
+  padding: 10px;
+  background-color: red;
+
+  }
+
+  .getintouch{
+      width: 85vh ;
+      height: 50vh;
+    
+     margin-left: 3%;
+     display: block;
+     
+      background-color: whitesmoke;
+      text-align: center !important;
+
+  }
+  .getintouch h1{
+      text-align: center;
+      color: black;
+      display: inline-block;
+      font-family: serif;
+      font-size: 1.6rem;
+      margin-block-start: 5%;
+      
+  }
+  .getintouch p{
+    text-align: center;
+    color: black;
+   
+    font-family: serif;
+    font-size: 1rem;
+    
+ 
+  }
+  .aboutimage{
+    
+      
+      width: 85vh;
+      display: flex;
+      margin: 0 auto;
+
+  }
+  .designLink p{
+     
+      padding: 10px;
+  }
+  .intro{
+      margin-left: 4%;
+      margin-top: 7%;
+      font-size: 1rem;
+      text-align: center;
+      color: whitesmoke;
+
+
+  }
+  .intro p{
+      color: white;
+      font-family: serif,
+    
+      
+  }
+  .intro h1{
+      font-size: 1.4rem;
+      text-align: center;
+  }
+  .intro a{
+   
+      color: rgb(122, 122, 243);
+      font-family: 'Franklin Gothic Medium';
+  }
+  .designframe{
+     
+      width: 60%;
+      height: 40vh;
+      display:flex;
+   margin: 0 auto;
+  }
+  
+
+  @media  only screen and (max-widh:960px) {
+    .grid-container {
+      display: none;
+      
+      
+      }
+    
+      .removeme{
+        display: none;
+    
+      }
+    
+      
+  }

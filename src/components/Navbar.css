@@ -41,6 +41,7 @@ display: none;
 
     color: white;
     width: 10vw;
+    z-index: 1;
     
     margin-right: 2rem;
   }
@@ -78,6 +79,7 @@ font-family: serif;
     position: absolute;
     top: 80px;
     left: -300%;
+    margin-top: -3%;
 
     opacity: 1;
     transition: all 0.5s ease;
