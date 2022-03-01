@@ -24,7 +24,7 @@
   }
 
   .getintouch{
-      width: 85vh ;
+      width: 95%;
       height: 50vh;
     
      margin-left: 3%;
@@ -55,7 +55,7 @@
   .aboutimage{
     
       
-      width: 85vh;
+      width: 95%;
       display: flex;
       margin: 0 auto;
 
