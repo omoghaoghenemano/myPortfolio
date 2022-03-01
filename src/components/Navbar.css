@@ -1,0 +1,98 @@
+.fa-times{
+    color: red;
+}
+.fa-bars{
+    color:whitesmoke;
+}
+.navbar{
+    color: white;
+    margin-top: 3%;
+}
+.navbar-logo{color:white;
+text-decoration: 
+none;
+font-size: 2rem;
+margin-left: 2%;
+
+font-family: serif;
+
+;}
+.menu-icon{
+display: none;
+}
+.nav-item{
+    text-decoration: none;
+    color: white;
+
+  
+   
+ 
+}
+.hrcomp{
+    width: 95%;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+
+    color: white;
+    width: 10vw;
+    
+    margin-right: 2rem;
+  }
+  .fullwidth
+  {
+      text-decoration: none;
+      color: white;
+      margin-left: 2%;
+      display:flexbox;
+  }
+@media only screen and (max-width:960px) {
+
+    .menu-icon{
+        display: block;
+    float: right;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+.navbar-logo{color:white;
+text-decoration: 
+none;
+font-size: 2rem;
+margin-left: 20%;
+font-family: serif;
+
+;}
+
+
+
+ .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 80px;
+    left: -300%;
+
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background: black;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+
+.hrcomp{
+    width: 95%;
+}
+}
