@@ -9,7 +9,7 @@ import './DesignHome.css';
 export default function DesignHome() {
   return(
      <>
-         <br></br><br></br>
+     {/*     <br></br><br></br>
          <iframe  class="designframe" src="https://www.youtube.com/embed/KRtLZF-xlAs"/>
 
             <div className='intro'><h1>
@@ -37,6 +37,7 @@ export default function DesignHome() {
                     <a href="https://github.com/omoghaoghenemano" ><i className="fab fa-github"></i></a>
                 </div>
                 <Footer/>
+                <br></br> */}
             
      </>
    

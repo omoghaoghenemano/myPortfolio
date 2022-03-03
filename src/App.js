@@ -16,7 +16,7 @@ import { Redirect } from 'react-router-dom';
 class App extends React.Component {
   constructor(){
     super();
-    
+
     this.state = {
       name: 'React',
       isUserAuthenticated:true
@@ -30,7 +30,7 @@ class App extends React.Component {
    
     <>
  <Router>
- this.state.isUserAuthenticated?<Redirect to='/'/>:<Redirect to='/'/>
+ <Redirect to='/'/>
       <Navbar/>
 
     

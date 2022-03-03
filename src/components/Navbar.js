@@ -8,15 +8,20 @@ import './Navbar.css';
 function Navbar() {
   const [click, setClick] = useState(false);
 
-
+const [changecolor, setColor] = useState(true);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-  
-
-
-  
-
- 
+const showchangeColorr= () => {
+  if (window.innerWidth<960) {
+    setColor(true);
+  } else {
+    setColor(false);
+  }
+}
+useEffect(()=>{
+  showchangeColorr();
+},[])
+window.addEventListener('resize', showchangeColorr);
 
   return (
     <>
@@ -34,11 +39,11 @@ function Navbar() {
           <hr className='hrcomp'></hr>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
               <li>
-              <Link className='nav-item' to='/'onClick={closeMobileMenu}>Home</Link>
+              <Link className='nav-item' style={{color:changecolor?'white':'green' } }to='/'onClick={closeMobileMenu}>Home</Link>
               </li> 
                <li>
-          <Link to='/Portfolio' className='nav-item' onClick={closeMobileMenu}>Portfolio</Link>
-                   </li>  <li> <Link  to='/Contact' className='nav-item' onClick={closeMobileMenu}>Contact</Link> </li>  
+          <Link to='/Portfolio' className='nav-item'style={{color:changecolor?'white':'green'} } onClick={closeMobileMenu}>Portfolio</Link>
+                   </li>  <li> <Link  to='/Contact' style={{color:changecolor?'white':'green'} } className='nav-item' onClick={closeMobileMenu}>Contact</Link> </li>  
 
           </ul>
         
