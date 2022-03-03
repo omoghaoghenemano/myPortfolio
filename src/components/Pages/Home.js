@@ -1,8 +1,13 @@
 import React from 'react';
 import DesignHome from '../Controller/DesignHome';
-
-export default function Home() {
+function Home() {
   return (
-    <DesignHome/>
-  )
+    <>
+     <DesignHome/>
+    
+    </>
+  );
 }
+
+export default Home;
+
