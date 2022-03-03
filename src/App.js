@@ -16,6 +16,7 @@ import { Redirect } from 'react-router-dom';
 class App extends React.Component {
   constructor(){
     super();
+    
     this.state = {
       name: 'React',
       isUserAuthenticated:true
